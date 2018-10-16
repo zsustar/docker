@@ -1,8 +1,8 @@
 # How to Install WordPress on Docker
-This yaml file will start a MySQL DB and a Wordpress container
+This yaml file will start a MySQL DB container and a Wordpress container  
 https://www.hostinger.com/tutorials/run-docker-wordpress#gref
 
-- To run the file:
+- To run the file, make sure yaml file is in the same dir:
 `docker-compose up -d`
 
 - To visit the WP:
@@ -16,3 +16,4 @@ https://www.hostinger.com/tutorials/run-docker-wordpress#gref
 
 - To check the volume
 `docker volume ls`
+

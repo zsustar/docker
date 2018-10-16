@@ -50,9 +50,17 @@ docker run hello-world
 ```
 sudo apt-get update
 ```
-- hostname
-hostnamectl set-hostname 
-ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
+- install docker compose
+```
+#Download Latest Compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+#Apply executable permision
+sudo chmod +x /usr/local/bin/docker-compose
+
+#Test the installation
+docker-compose --version
+```
 
 # Install on RedHat
 ```

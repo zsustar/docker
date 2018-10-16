@@ -35,6 +35,7 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get install docker-ce
 
+# I
 #List the versions available in your repo:
 apt-cache madison docker-ce
 ```
@@ -83,3 +84,8 @@ sudo yum install docker-ce
 #Start Docker.
 sudo systemctl start docker
 ```
+# Install on Mac
+https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac
+
+# Install on Windows
+https://docs.docker.com/docker-for-windows/install/#about-windows-containers
